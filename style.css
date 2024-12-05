@@ -1,0 +1,155 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+  };
+  
+  body, html {
+      overflow-x: hidden;
+  }
+  
+  .container {
+      max-width: 100%;
+  }
+  
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .container {
+      max-width: 100%;
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .navbar-brand{
+    font-size: 2rem;
+    font-family: Dancing Script;
+    color: black;
+  }
+  .navbar-brand:hover{
+    color: black;
+  }
+  .nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+  }
+  .nav-link:hover{
+    color: black;
+  }
+  .search{
+    height: 40px;
+    width: 80px;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: Dancing Script;
+    border: 2px solid rgb(248, 26, 92);
+  }
+  .btn0{
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+  }
+
+  .main{
+    background: url(/images/delicious-spanish-rice-paella-pan-white-background-with-copy-space.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+  }
+  .main h1{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .btn1{
+    height: 35%;
+    width: 15%;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+  }
+
+
+  icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  .icons-container {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+  }
+  .icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  .icon .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .icon img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .icon span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  h1{
+    font-weight: 700;
+  }
+
+.btn1:hover{
+  background-color: rgb(163, 24, 66);
+  transition: 0.5s;
+}
+
+.card:hover{
+  -webkit-box-shadow: -34px 6px 14px 3px rgba(0,0,0,0.73);
+-moz-box-shadow: -34px 6px 14px 3px rgba(0,0,0,0.73);
+box-shadow: -34px 6px 14px 3px rgba(0,0,0,0.73);
+transition: 0.5s;
+}
+
+.apple{
+  background: url(images/DALL·E\ 2024-12-05\ 16.31.17\ -\ A\ cheerful\ young\ woman\ with\ long\ brown\ hair\,\ wearing\ round\ glasses\ and\ a\ red\ polka\ dot\ shirt\,\ holding\ a\ shiny\ red\ apple\ in\ one\ hand.\ She\ has\ an\ .webp)no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+.apple h1{
+  font-family: 'lobster',cursive;
+}
