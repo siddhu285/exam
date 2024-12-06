@@ -61,13 +61,10 @@
     font-weight: 700;
   }
 
-  .main{
-    background: url(/images/delicious-spanish-rice-paella-pan-white-background-with-copy-space.jpg)no-repeat;
-    background-size: cover;
+  #hero {
+    background: url(images/delicious-spanish-rice-paella-pan-white-background-with-copy-space.jpg) no-repeat center center/cover;
     height: 100vh;
-    background-position: 50% 50%;
-    width: 100%;
-  }
+}
   .main h1{
     font-size: 4rem;
     font-weight: 700;
@@ -83,6 +80,7 @@
     border-radius: 60px;
 
   }
+  
 
 
   icons-container {
